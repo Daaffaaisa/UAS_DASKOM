@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>Tugas Daskom</title>
+  </head>
+  <body bgcolor="#E6E2E9">
+    <header> <a href="index.html" style="color:#7C8584 ;">Back to main menu</a>
+    <a href="js_UAS.html" style="color:#7C8584;" id="main_menu">Click Here to move to JS program </a>
+    </header>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1>MY PERSONAL WEBSITE</h1>
+    <hr id="garis1" />
+    <hr id="garis2" />
+    <center>
+      <a href="tugasdaskom-beranda.html"style="color:#7C8584 ;">Beranda</a> |
+      <a href="tugasdaskom-profile.html"style="color:#7C8584 ;">Profile</a> |
+      <a href="tugasdaskom-Artikel.html"style="color:#7C8584 ;">Artikel</a> |
+      <a href="tugasdaskom-BukuTamu.html"style="color:#7C8584 ;">Buku Tamu</a>
+    </center>
+    <br />
+    <br />
+    <br />
+    <h2 style="color:#6a624d ;">Form Buku Tamu</h2>
+    <form action="php_uas.php" method="post">
+     <b>Nama Lengkap :</b><br><input type="text" name="nama_lengkap" size="50">
+      <br>
+      <br>
+    <b>Jenis Kelamin :</b><br>  <input type="radio" name="jenis_kelamin" value="L"> Laki Laki &nbsp; <input type="radio" name="jenis_kelamin" value="P"> Perempuan
+      <br>
+      <br>
+     <b>Alamat Tinggal</b><br> 
+      <input type="text" name="alamat" size="50">
+      <br>
+      <br>
+    <b>Email</b><br>
+      <input type="text" name="email" size="50">
+      <br>
+      <br>
+     <b>Aktif Pada Sosial Media</b><br>
+      <input type="checkbox" name="sosmed[]" value="YA"> Instagram
+      <input type="checkbox" name="sosmed[]" value="YA"> Twitter
+      <input type="checkbox" name="sosmed[]" value="YA"> Tiktok
+      <input type="checkbox" name="sosmed[]" value="YA"> Facebook
+      <br>
+      <br>
+      <b>Mengetahui Web ini dari : </b> <br>
+      <select name="info">
+        <option selected="select">=Pilih=</option>
+        <option value="web udinus">Web Udinus</option>
+        <option value="Surat Kabra">Surat Kabar</option>
+        <option value="Teman">Teman</option>
+        <option value="Internet">Internet</option>
+      </select>
+      <br>
+      <br>
+      <b>Pesan</b> <br>
+      <textarea name="pesan" cols="50" rows="7"></textarea>
+      <br>
+      <br>
+      <input type="submit" value="Kirim" name="tbl"> &nbsp; <input type="reset" value="Batal">
+    </form>
+    
+  </body>
+</html>

@@ -1,0 +1,132 @@
+header {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 55px;
+    background:#cec9cb9f;
+    height: auto;
+    width: 95.4vw;
+  }
+  h1 {
+    font-family:system-ui, -apple-sytem; 
+    text-align: center; color:#121B28;
+  }
+  #garis1 {
+    border-top: 3px solid black;
+    width: 99.8327%;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+  }
+  #garis2 {
+    border-top: 3px solid black;
+    width: 99.8327%;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+  }
+  #text1 {
+    font-size: 50px;
+    text-align: center;
+    position: fixed;
+    top: 550px;
+    left: 500px;
+    color: #6a624d;
+  }
+  #text2 {
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    top: 650px;
+    left: 500px;
+    color: #6a624d;
+  }
+  
+  a {
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: #b9b09b;
+  }
+  a:visited {
+    color: #b9b09b;
+  }
+  a:active {
+    color: #6a624d;
+  }
+  a:hover,a:active {
+    background: #6a624d;
+  }
+  #gambar {
+    position:;
+    left: 700px;
+    top: 540px;
+  }
+  li {
+    color: #7C8584;
+  }
+  #beranda1 {
+    font-size: 50px;
+    text-align: center;
+    position:fixed;
+    top: 550px;
+    left: 500px;
+  }
+  #beranda2 {
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    top: 650px;
+    left: 500px;
+  }
+  b {
+    color:#7C8584;
+  }
+  .content-profile-name {
+    position: absolute;
+    top: 210px;
+    left: 560px;
+    color: #7C8584;
+    font-size: 48px;
+    font-family: "Aquatico";
+  }
+  .content-profile-age {
+    position: absolute;
+    top: 360px;
+    left: 620px;
+    color: #7C8584;
+    font-size: 48px;
+    font-family: "Aquatico";
+  }
+  @font-face {
+    font-family: "Aquatico";
+    src: url(Font/Aquatico-Regular.otf);
+  }
+  .content-profile-birth {
+    position: absolute;
+    top: 500px;
+    left: 605px;
+    color: #7C8584;
+    font-size: 48px;
+    font-family: "Aquatico";
+  }
+  .content-profile-more {
+    position: absolute;
+    top: 770px;
+    left: 250px;
+    color: #7C8584;
+    font-size: 20px;
+  }
+  #pp {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 10px solid #121B28;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+  }
+  #main_menu {
+    position: fixed;
+    left: 1500px;
+  }
